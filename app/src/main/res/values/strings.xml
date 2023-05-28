@@ -1,0 +1,19 @@
+<resources>
+    <string name="recipe_name">Название рецепта</string>
+    <string name="recipe_category">Категория</string>
+    <string name="recipe_ingredients">Ингредиенты (по строчно)</string>
+    <string name="recipe_instructions">Рецепт</string>
+    <string name="recipe_time">Время готовки (ЧЧ:ММ)</string>
+    <string name="recipe_change_photo">Изменить фото</string>
+    <string name="recipe_save">Сохранить</string>
+
+    <string name="app_name">Мои рецепты</string>
+
+    <string name="search">Поиск</string>
+    <string name="detail">Открыть</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="sort">Сортировка</string>g>
+
+    <string name="label_photo">Выбрать изображение</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recipe_category">
+        <item>Завтраки</item>
+        <item>Супы</item>
+        <item>Салаты</item>
+        <item>Горячие блюда</item>
+        <item>Паста и пицца</item>
+        <item>Рыба и морепродукты</item>
+        <item>Мясные блюда</item>
+        <item>Вегетарианские блюда</item>
+        <item>Десерты</item>
+        <item>Выпечка</item>
+        <item>Напитки</item>
+        <item>Соусы и заправки</item>
+        <item>Закуски</item>
+        <item>Каши и крупы</item>
+        <item>Консервирование и заготовки</item>
+    </string-array>
+</resources>

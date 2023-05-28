@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recipe_name"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/recipe_category"
+            android:layout_marginBottom="15px"/>
+
+        <EditText
+            android:id="@+id/ingredients_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recipe_ingredients"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/instructions_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recipe_instructions"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/time_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/recipe_time"
+            android:inputType="time" />
+
+        <ImageView
+            android:id="@+id/photo_image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btn_select_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_change_photo" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_save"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
